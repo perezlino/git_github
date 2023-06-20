@@ -1,0 +1,5 @@
+Formas de escape
+================
+
+1. :q y Enter
+2. Pulsar Escape y :wq!
