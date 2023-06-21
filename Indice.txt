@@ -1,0 +1,33 @@
+Comandos estudiados
+===================
+
+1-Git fundamentos / 1-Primeros comandos Git
+-------------------------------------------
+git help
+git help 'comando'
+git version --
+git config --global user.name "nombre"
+git config --global user.email "correo"
+git config --global -e
+
+1-Git fundamentos / 2-Nuestro primer repositorio
+------------------------------------------------
+git init
+git status
+git add 'archivo'
+git add .
+git reset
+git commit -m 'descripcion'
+
+1-Git fundamentos / 3-Reconstruir un proyecto de acuerdo al ultimo commit
+-------------------------------------------------------------------------
+git checkout -- .
+
+1-Git fundamentos / 4-Visualizar la rama en la que nos encontramos
+------------------------------------------------------------------
+git branch
+
+1-Git fundamentos / 5-Demostracion de la creacion, puesta en escena y commits
+-----------------------------------------------------------------------------
+git commit -am 'descripcion'
+git log
