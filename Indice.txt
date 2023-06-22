@@ -16,6 +16,8 @@ git init
 git status
 git add 'archivo'
 git add .
+git add --all
+git add -A
 git reset
 git commit -m 'descripcion'
 
@@ -31,3 +33,27 @@ git branch
 -----------------------------------------------------------------------------
 git commit -am 'descripcion'
 git log
+
+1-Git fundamentos / 7-Diferentes formas de agregar archivos al stage
+--------------------------------------------------------------------
+git add *.extension
+git add directorio/*.extension
+git add directorio/
+git add directorio/subdirectorio
+git reset *.extension
+
+1-Git fundamentos / 8-Otras formas de revisar el log y los cambios desde el último commit
+-----------------------------------------------------------------------------------------
+git log --oneline
+git log --oneline --decorate --all --graph
+git status -s
+git status --short
+git status -s -b
+
+1-Git fundamentos / 9-Crear Alias para nuestros comandos
+--------------------------------------------------------
+git config --global alias.nombre_alias "comando a renombrar"
+
+1-Git fundamentos / 10-Revisar datos de configuracion
+-----------------------------------------------------
+git config --global -l
