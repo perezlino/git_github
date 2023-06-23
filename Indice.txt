@@ -18,12 +18,12 @@ git add 'archivo'
 git add .
 git add --all
 git add -A
-git reset
+git reset                          =>  Revertir la carga de un archivo al **stage**
 git commit -m 'descripcion'
 
 1-Git fundamentos / 3-Reconstruir un proyecto de acuerdo al ultimo commit
 -------------------------------------------------------------------------
-git checkout -- .
+git checkout -- .                  => Revertir la modificación de un archivo después de haber sido guardado
 
 1-Git fundamentos / 4-Visualizar la rama en la que nos encontramos
 ------------------------------------------------------------------
@@ -57,3 +57,37 @@ git config --global alias.nombre_alias "comando a renombrar"
 1-Git fundamentos / 10-Revisar datos de configuracion
 -----------------------------------------------------
 git config --global -l
+
+==================================================================================================
+==================================================================================================
+
+2-Un poco más allá de los fundamentos de Git / 1-Cambios en los archivos
+------------------------------------------------------------------------
+git diff
+git diff --staged
+git reset 
+git reset HEAD 
+git checkout -- .
+
+2-Un poco más allá de los fundamentos de Git / 2-Actualizar mensaje del commit y revertir commits
+-------------------------------------------------------------------------------------------------
+git commit --amend -m "descripcion"
+git reset --soft HEAD^                     => Eliminamos el último commit
+
+2-Un poco más allá de los fundamentos de Git / 3-Preparando un repositorio para viajes en el tiempo
+---------------------------------------------------------------------------------------------------
+git commit
+git commit --amend
+
+2-Un poco más allá de los fundamentos de Git / 4-Viajes en el tiempo, resets y reflog
+-------------------------------------------------------------------------------------
+git reset --soft hash_previo_al_ultimo_commit
+git reset --mixed hash_previo_al_ultimo_commit
+git reset --hard hash_previo_al_ultimo_commit
+git reflog
+
+2-Un poco más allá de los fundamentos de Git / 5-Cambiar el nombre y eliminar archivos mediante git
+---------------------------------------------------------------------------------------------------
+git mv <nombre_archivo> <nuevo_nombre_archivo>
+git rm <nombre_archivo>
+git reset --hard
