@@ -111,3 +111,14 @@ git branch -d <nombre_rama> -f
 3-Ramas, uniones, conflictos y tags / 3-Merge Union Automatica
 --------------------------------------------------------------
 git checkout -b <nombre_rama>
+
+3-Ramas, uniones, conflictos y tags / 5-Merge Uniones con conflictos
+--------------------------------------------------------------------
+git tag <nombre_tag>
+git tag -d <nombre_tag>
+git tag -a <nombre_tag> -m <descripcion>
+git tag -a <nombre_tag> <hash_commit> -m <descripcion>
+git show <nombre_tag o hash>
+
+==================================================================================================
+==================================================================================================
