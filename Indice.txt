@@ -91,3 +91,11 @@ git reflog
 git mv <nombre_archivo> <nuevo_nombre_archivo>
 git rm <nombre_archivo>
 git reset --hard
+
+2-Un poco más allá de los fundamentos de Git / 6-Cambiar el nombre y eliminar archivos fuera de git (VSCode)
+------------------------------------------------------------------------------------------------------------
+git add -u
+
+==================================================================================================
+==================================================================================================
+
