@@ -99,3 +99,11 @@ git add -u
 ==================================================================================================
 ==================================================================================================
 
+3-Ramas, uniones, conflictos y tags / 2-Merge Fast-Forward
+----------------------------------------------------------
+git branch <nombre_rama>
+git checkout <nombre_rama>
+git diff <rama_1> <rama_2>
+git merge <nombre_rama>
+git branch -d <nombre_rama>
+git branch -d <nombre_rama> -f
