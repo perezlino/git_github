@@ -107,3 +107,7 @@ git diff <rama_1> <rama_2>
 git merge <nombre_rama>
 git branch -d <nombre_rama>
 git branch -d <nombre_rama> -f
+
+3-Ramas, uniones, conflictos y tags / 3-Merge Union Automatica
+--------------------------------------------------------------
+git checkout -b <nombre_rama>
