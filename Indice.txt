@@ -128,3 +128,23 @@ git show <nombre_tag o hash>
 git stash
 git stash list
 git stash pop
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 2-Conflictos con el stash
+------------------------------------------------------------------------------------------
+git stash drop
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 3-Mas informacion sobre el stash
+-------------------------------------------------------------------------------------------------
+git stash
+git stash save
+git stash save "descripcion"
+git stash apply = git stash apply stash@{0}
+git stash apply stash@{}
+git stash drop = git stash drop stash@{0}
+git stash drop stash@{}
+git stash save --keep-index
+git stash save --include-untracked
+git stash list --stat
+git show stash
+git show stash@{}
+git stash clear
