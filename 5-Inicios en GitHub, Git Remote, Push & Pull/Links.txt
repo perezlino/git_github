@@ -1,0 +1,18 @@
+Documentación útil
+==================
+
+Gitosis
+
+https://wiki.archlinux.org/title/gitosis#:~:text=Gitosis%20is%20a%20tool%20which,system%20accounts%20on%20the%20server.
+
+https://github.com/res0nat0r/gitosis
+
+
+Guardar su contraseña de GitHub en la máquina WINDOWS
+
+https://help.github.com/articles/caching-your-github-password-in-git/#platform-windows
+
+
+Guardar su usuario y contraseña en la máquina LINUX
+
+https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux

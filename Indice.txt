@@ -166,3 +166,12 @@ git rebase -i HEAD~
 git rebase -i HEAD~
 git reset HEAD^
 git rebase --continue
+
+5-Inicios en Github, Git Remote, Push & Pull / 3-Push de los Tags de nuestro repositorio
+----------------------------------------------------------------------------------------
+git push --tags
+
+5-Inicios en Github, Git Remote, Push & Pull / 4-Pull de los últimos cambios en el repositorio de GitHub
+--------------------------------------------------------------------------------------------------------
+git remote -v
+git pull
