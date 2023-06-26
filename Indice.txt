@@ -148,3 +148,21 @@ git stash list --stat
 git show stash
 git show stash@{}
 git stash clear
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 5-Rebase – Actualizando una rama
+-------------------------------------------------------------------------------------------------
+git rebase main
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 6-Rebase - Squash (unir dos commits)
+-----------------------------------------------------------------------------------------------------
+git rebase -i HEAD~
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 7-Rebase - Reword (cambiar nombre de commit)
+-------------------------------------------------------------------------------------------------------------
+git rebase -i HEAD~
+
+4-Git Stash y Git Rebase - Para realizar cambios de emergencia / 8-Rebase - edit (separar un commit)
+----------------------------------------------------------------------------------------------------
+git rebase -i HEAD~
+git reset HEAD^
+git rebase --continue
