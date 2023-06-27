@@ -176,11 +176,15 @@ git push --tags
 git remote -v
 git pull
 
-5-Inicios en Github, Git Remote, Push & Pull /5-Clonar un repositorio
+5-Inicios en Github, Git Remote, Push & Pull / 5-Clonar un repositorio
 ---------------------------------------------------------------------
 git clone <URL>
 git clone <URL> nombre_directorio
 
-5-Inicios en Github, Git Remote, Push & Pull /6-Subir cambios locales al remoto
+5-Inicios en Github, Git Remote, Push & Pull / 6-Subir cambios locales al remoto
 -------------------------------------------------------------------------------
 git push
+
+5-Inicios en Github, Git Remote, Push & Pull / 7-Git Fetch
+----------------------------------------------------------
+git fetch
