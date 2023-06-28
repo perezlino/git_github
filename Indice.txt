@@ -195,4 +195,4 @@ git branch -a
 
 7-Github avanzado / 3-Pull Request
 ----------------------------------
-git checkout <hash> <nombre_archivo_modificado>
+git checkout <hash> <nombre_archivo_modificado>    ==>   Revertimos una modificación para un archivo especifico 
