@@ -110,7 +110,7 @@ git branch -d <nombre_rama> -f
 
 3-Ramas, uniones, conflictos y tags / 3-Merge Union Automatica
 --------------------------------------------------------------
-git checkout -b <nombre_rama>
+git checkout -b <nombre_rama>    =>  Creamos la rama y nos movemos inmediatamente a ella
 
 3-Ramas, uniones, conflictos y tags / 5-Merge Uniones con conflictos
 --------------------------------------------------------------------
