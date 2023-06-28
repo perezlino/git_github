@@ -199,5 +199,15 @@ git checkout <hash> <nombre_archivo_modificado>    ==>   Revertimos una modifica
 
 7-Github avanzado / 7-Feature Branch – Flujo de trabajo mediante Pull request
 -----------------------------------------------------------------------------
+git push origin <nombre_rama>   ==>   Hacemos push a una rama creada en el repositorio local al repositorio remoto
 git branch -D <nombre_rama>     ==>   Forzar eliminado de rama
 git branch -v   ==> Visualizar todas las ramas
+
+7-Github avanzado / 8-Feature Branch – Revisando el trabajo de otros compañeros
+-------------------------------------------------------------------------------
+git pull --all   ==>  Forzar el pull
+
+7-Github avanzado / 9-Limpiar ramas que ya no son necesarias
+------------------------------------------------------------
+git push origin :<rama_origin>
+git remote prune origin
