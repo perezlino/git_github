@@ -196,3 +196,8 @@ git branch -a
 7-Github avanzado / 3-Pull Request
 ----------------------------------
 git checkout <hash> <nombre_archivo_modificado>    ==>   Revertimos una modificación para un archivo especifico 
+
+7-Github avanzado / 7-Feature Branch – Flujo de trabajo mediante Pull request
+-----------------------------------------------------------------------------
+git branch -D <nombre_rama>     ==>   Forzar eliminado de rama
+git branch -v   ==> Visualizar todas las ramas
