@@ -92,9 +92,17 @@ git mv <nombre_archivo> <nuevo_nombre_archivo>
 git rm <nombre_archivo>
 git reset --hard
 
+Extra: Cambiar nombre directorio
+--------------------------------
+git mv <nombre_directorio> <nuevo_nombre_directorio>
+
+Extra: Eliminar directorio
+--------------------------
+git rm -r <nombre_directorio> y luego ejecutar git commit
+
 2-Un poco más allá de los fundamentos de Git / 6-Cambiar el nombre y eliminar archivos fuera de git (VSCode)
 ------------------------------------------------------------------------------------------------------------
-git add -u
+git add -u ----------> Agregar al stage archivos que quedaron sin seguimiento (Untracked)
 
 ==================================================================================================
 ==================================================================================================
